@@ -6,12 +6,12 @@ export default {
 </script>
 
 <template>
-  <img :class="{ shake: shaking }" v-if="rollResult === 1" class="max-w-24" src="../assets/kostka1.svg">
-  <img :class="{ shake: shaking }" v-if="rollResult === 2" class="max-w-24" src="../assets/kostka2.svg">
-  <img :class="{ shake: shaking }" v-if="rollResult === 3" class="max-w-24" src="../assets/kostka3.svg">
-  <img :class="{ shake: shaking }" v-if="rollResult === 4" class="max-w-24" src="../assets/kostka4.svg">
-  <img :class="{ shake: shaking }" v-if="rollResult === 5" class="max-w-24" src="../assets/kostka5.svg">
-  <img :class="{ shake: shaking }" v-if="rollResult === 6" class="max-w-24" src="../assets/kostka6.svg">
+  <img :class="{ shake: shaking }" v-if="rollResult === 1" class="min-w-fit" src="../assets/kostka1.svg">
+  <img :class="{ shake: shaking }" v-if="rollResult === 2" class="min-w-fit" src="../assets/kostka2.svg">
+  <img :class="{ shake: shaking }" v-if="rollResult === 3" class="min-w-fit" src="../assets/kostka3.svg">
+  <img :class="{ shake: shaking }" v-if="rollResult === 4" class="min-w-fit" src="../assets/kostka4.svg">
+  <img :class="{ shake: shaking }" v-if="rollResult === 5" class="min-w-fit" src="../assets/kostka5.svg">
+  <img :class="{ shake: shaking }" v-if="rollResult === 6" class="min-w-fit" src="../assets/kostka6.svg">
 </template>
 
 <style scoped>

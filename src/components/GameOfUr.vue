@@ -45,10 +45,10 @@ export default {
 </script>
 
 <template>
-  <card class="w-[500px]">
+  <card class="m-5 w-full md:w-2/5">
     <CardHeader>
-      <CardTitle>Královská hra z Uru</CardTitle>
-      <CardDescription>Simulátor hodu čtyř čtyřstěnných kostek.</CardDescription>
+      <CardTitle>Royal game of Ur</CardTitle>
+      <CardDescription>Simulator of four four-sided dice.</CardDescription>
     </CardHeader>
 
     <CardContent>
