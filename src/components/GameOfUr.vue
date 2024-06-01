@@ -35,7 +35,6 @@ export default {
     rollMethod() {
       var audio = new Audio('http://soundbible.com/grab.php?id=182&type=mp3');
       audio.play();
-      navigator.vibrate(this.timeoutMin*this.flashRepeat);
       this.randomizeDiceForTime(0)
       this.randomizeDiceForTime(1)
       this.randomizeDiceForTime(2)
