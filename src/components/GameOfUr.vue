@@ -63,7 +63,7 @@ export default {
     </CardContent>
 
     <CardFooter class="flex justify-end px-6 pb-6">
-      <Button @click="rollMethod">Hodit</Button>
+      <Button @click="rollMethod">Roll the dice!</Button>
     </CardFooter>
   </card>
 </template>
