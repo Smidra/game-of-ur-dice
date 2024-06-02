@@ -47,8 +47,8 @@ export default {
 <template>
   <card class="m-5 w-full sm:w-3/5 md:w-2/5 lg:w-1/5">
     <CardHeader>
-      <CardTitle>Royal game of Ur</CardTitle>
-      <CardDescription>Simulator of four four-sided dice.</CardDescription>
+      <CardTitle>Game of Ur dice online</CardTitle>
+      <CardDescription>The royal game of Ur dice online simulator free.</CardDescription>
     </CardHeader>
 
     <CardContent>
