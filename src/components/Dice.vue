@@ -6,12 +6,12 @@ export default {
 </script>
 
 <template>
-  <img :class="{ shake: shaking }" v-if="rollResult === 1" class="w-1/4" src="../assets/kostka1.svg" alt="dice1">
-  <img :class="{ shake: shaking }" v-if="rollResult === 2" class="w-1/4" src="../assets/kostka2.svg" alt="dice2">
-  <img :class="{ shake: shaking }" v-if="rollResult === 3" class="w-1/4" src="../assets/kostka3.svg" alt="dice3">
-  <img :class="{ shake: shaking }" v-if="rollResult === 4" class="w-1/4" src="../assets/kostka4.svg" alt="dice4">
-  <img :class="{ shake: shaking }" v-if="rollResult === 5" class="w-1/4" src="../assets/kostka5.svg" alt="dice5">
-  <img :class="{ shake: shaking }" v-if="rollResult === 6" class="w-1/4" src="../assets/kostka6.svg" alt="dice6">
+  <img :class="{ shake: shaking }" v-if="rollResult === 1" class="w-1/2" src="../assets/kostka1.svg" alt="dice1">
+  <img :class="{ shake: shaking }" v-if="rollResult === 2" class="w-1/2" src="../assets/kostka2.svg" alt="dice2">
+  <img :class="{ shake: shaking }" v-if="rollResult === 3" class="w-1/2" src="../assets/kostka3.svg" alt="dice3">
+  <img :class="{ shake: shaking }" v-if="rollResult === 4" class="w-1/2" src="../assets/kostka4.svg" alt="dice4">
+  <img :class="{ shake: shaking }" v-if="rollResult === 5" class="w-1/2" src="../assets/kostka5.svg" alt="dice5">
+  <img :class="{ shake: shaking }" v-if="rollResult === 6" class="w-1/2" src="../assets/kostka6.svg" alt="dice6">
 </template>
 
 <style scoped>

@@ -45,7 +45,7 @@ export default {
 </script>
 
 <template>
-  <card class="m-5 w-full md:w-2/5">
+  <card class="m-5 w-full sm:w-3/5 md:w-2/5 lg:w-1/5">
     <CardHeader>
       <CardTitle>Royal game of Ur</CardTitle>
       <CardDescription>Simulator of four four-sided dice.</CardDescription>
@@ -56,14 +56,16 @@ export default {
         <div class="flex flex-row justify-between">
           <dice :roll-result="dices[0]" :shaking="dicesShaking[0]"></dice>
           <dice :roll-result="dices[1]" :shaking="dicesShaking[1]"></dice>
+        </div>
+        <div class="flex flex-row justify-between">
           <dice :roll-result="dices[2]" :shaking="dicesShaking[2]"></dice>
           <dice :roll-result="dices[3]" :shaking="dicesShaking[3]"></dice>
         </div>
       </div>
     </CardContent>
 
-    <CardFooter class="flex justify-end px-6 pb-6">
-      <Button @click="rollMethod">Roll the dice!</Button>
+    <CardFooter class="w-full px-6 pb-6">
+      <Button class="w-full" variant="outline" @click="rollMethod">Roll the dice!</Button>
     </CardFooter>
   </card>
 </template>
